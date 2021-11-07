@@ -30,8 +30,8 @@ Additional features were added to the original functionality of the app, includi
 
 ### Prerequisites
 
-- A Mac running macOS Catalina (beta)
-- Xcode 11 (beta)
+- A Mac running macOS Catalina or above
+- Xcode 12 or above
 
 ### Installation
 
