@@ -20,8 +20,10 @@ struct ContactRow : View {
                 .clipped()
             
             VStack(alignment: .leading) {
-                Text("\(contact.firstName) \(contact.lastName)").font(.headline)
-                Text(contact.city).font(.subheadline)
+                Text("\(contact.firstName) \(contact.lastName)")
+                    .font(.headline)
+                Text(contact.city)
+                    .font(.subheadline)
             }
             
             Spacer()

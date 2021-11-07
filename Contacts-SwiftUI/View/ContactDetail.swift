@@ -45,22 +45,27 @@ struct ContactDetail : View {
             HStack {
                 Text("Phone")
                 Spacer()
-                Text(contact.phone).color(.gray)
-                }.padding(.bottom, 5)
-            
+                Text(contact.phone)
+                    .foregroundColor(.gray)
+                    .padding(.bottom, 5)
+            }
             HStack {
                 Text("Email")
                 Spacer()
-                Text(contact.email).color(.gray)
-                }.padding(.bottom, 5)
-            
+                Text(contact.email)
+                    .foregroundColor(.gray)
+                    .padding(.bottom, 5)
+            }
             HStack {
                 Text("Address")
                 Spacer()
                 
                 VStack(alignment: .trailing) {
-                    Text(contact.street).color(.gray)
-                    Text("\(contact.city), \(contact.state) \(contact.zip)").color(.gray)
+                    Text(contact.street)
+                        .foregroundColor(.gray)
+                    Text("\(contact.city), \(contact.state) \(contact.zip)")
+                        .foregroundColor(.gray)
+                    
                 }
             }.padding(.bottom, 5)
             
